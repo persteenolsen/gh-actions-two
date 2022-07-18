@@ -1,0 +1,19 @@
+{
+  "name": "gh-actions-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "homepage": "https://persteenolsen.github.io/gh-actions-two/",
+  "scripts": {
+    "build": "node index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "gh-pages": "^4.0.0"
+  }
+}
